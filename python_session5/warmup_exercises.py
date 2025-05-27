@@ -11,7 +11,7 @@ Save the updated to-do items
 NB: You will need to manually create a new file called todo.txt in the same folder as your program before you start.
 """
 
-file = open("/Users/brionydunbar/Documents/CFGdegree/CFG-tests/python_session5/todo.txt", "r")
+file = open("/Users/brionydunbar/Documents/CFGdegree/CFG-tests/python_session5/todo.txt", "r+")
 contents = file.read()
 print(contents)
 
